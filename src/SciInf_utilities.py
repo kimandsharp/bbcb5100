@@ -6,6 +6,7 @@ defs and global variables required for Bayesian
 data analysis programs
 """
 import numpy as np
+import os
 #-------
 # globals
 CREDIBLE_MIN = 2.5 # lower percentile for credible interval
@@ -18,6 +19,11 @@ print('BMB510 Being Bayesian')
 print('=====================\n')
 print(NPOINT,' integration points\n')
 MAKEPLOT = False
+sisrcdir, sisrcfile = os.path.split(os.path.abspath(__file__))
+wrkdir = os.getcwd()
+print("running file ", sisrcfile)
+print("from directory ", sisrcdir)
+print('working directory ',wrkdir)
 #-------
 def read_n(n,filename):
     # read a list of integers from a file
