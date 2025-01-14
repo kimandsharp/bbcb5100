@@ -1,5 +1,5 @@
-# bmb510
-Code for bmb510 data analysis class, taught to 1st year Ph.D students
+# bbcb5100
+Code for bbcb5100 data analysis class, taught to 1st year Ph.D students
 in the Biochemistry and Molecular Biophysics program at the 
 University of Pennsylvania.
 Requires math, matplotlib, and numpy packages
